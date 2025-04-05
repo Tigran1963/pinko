@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250405203443">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="">
+	<div class="wrapper">
+		<header class="payment-top">
+			<div class="payment-top__container">
+				<div class="payment-top__body">
+					<a href="" class="payment-top__logo"><img src="img/logos/pinko.svg" alt="Pinko logo"></a>
+					<div class="payment-top__lang">
+						<a href="?lang=KG" class="kg selected" id='lng_KG'><img src="img/icons/KG.webp" />KG</a>
+						<a href="?lang=RU" class="ru" id='lng_RU'><img src="img/icons/RU.webp" />RU</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div class="payment-info">
+					<div class="payment-info__subtitle payment-subtitle">Перевод с карты на карту</div>
+					<h2 class="payment-info__title payment-title">Заявка на оплату</h2>
+					<div class="payment-info__money copy-block">
+						<span class="payment-info__money-number">600 KGS</span>
+						<span class="payment-info__money-icon"><img src="img/icons/copy.svg" alt="Икона скопировать"></span>
+					</div>
+					<a href="" class="payment-info__cancel-button">
+						<img src="img/icons/close.svg" alt="Иконка закрыть">
+					</a>
+					<div class="payment-info__text-block">
+						<img src="img/icons/card.webp" alt="Иконка карты">
+						Оплатите <p>ровно <span>600</span> KGS</p> одним переводом
+					</div>
+					<div class="payment-info__items">
+						<div class="payment-info__item payment-info__item--bank">
+							<div class="payment-info__icon">
+								<img src="img/icons/bank.svg" alt="иконка">
+							</div>
+							<div class="payment-info__info">
+								<label>Банк</label>
+								<span>MBANK</span>
+							</div>
+						</div>
+						<div class="payment-info__item copy-block">
+							<div class="payment-info__icon">
+								<img src="img/icons/phone.svg" alt="иконка">
+							</div>
+							<div class="payment-info__info">
+								<label>Телефон получателя</label>
+								<span>+996 551 200010</span>
+							</div>
+							<button type="button" class="payment-info__copy copy-button">Копировать <img src="img/icons/copy.svg" alt="иконка копирования"></button>
+						</div>
+						<div class="payment-info__item copy-block">
+							<div class="payment-info__icon">
+								<img src="img/icons/card-gray.webp" alt="иконка">
+							</div>
+							<div class="payment-info__info">
+								<label>Номер карты</label>
+								<span>2200200020002000</span>
+							</div>
+							<button type="button" class="payment-info__copy copy-button">Копировать <img src="img/icons/copy.svg" alt="иконка копирования"></button>
+						</div>
+						<div class="payment-info__item">
+							<div class="payment-info__icon">
+								<img src="img/icons/person.svg" alt="иконка">
+							</div>
+							<div class="payment-info__info">
+								<label>Получатель</label>
+								<span>Галина Александровна Ф</span>
+							</div>
+						</div>
+						<div class="payment-info__item copy-block">
+							<div class="payment-info__icon">
+								<span>KGS</span>
+							</div>
+							<div class="payment-info__info">
+								<label>Сумма перевода</label>
+								<span>1000 KGS</span>
+							</div>
+							<button type="button" class="payment-info__copy copy-button">Копировать <img src="img/icons/copy.svg" alt="иконка копирования"></button>
+						</div>
+					</div>
+				</div>
+				<div class="payment-bottom">
+					<div class="payment-bottom__body">
+						<div class="payment-bottom__timer">
+							<span class="payment-bottom__timer-title">Время на оплату</span>
+							<span class="payment-bottom__timer-time">7 мин 16 сек</span>
+						</div>
+						<button type="button" class="payment-bottom__button payment-bottom__button-ready button button--green">Я оплатил</button>
+					</div>
+				</div>
+				<div hidden class="payment-find">
+					<button type="button" class="payment-find__goback"><img src="img/icons/arrow-back.svg" alt="стрелка назад"></button>
+					<div class="payment-find__body">
+						<div class="payment-find__image">
+							<img src="img/find-image.webp" alt="картинка">
+						</div>
+						<div class="payment-find__texts">
+							<h2 class="payment-find__title payment-title">Ищем ваш платеж на 1000 ₽</h2>
+							<div class="payment-find__subtitle payment-subtitle">Не закрывайте это окно. Ваш платеж будет
+								подтвержден автоматически</div>
+						</div>
+						<div class="payment-find__buttons">
+							<button type="button" class="payment-find__button button"><img src="img/icons/question.svg" alt="">Что не так с платежем?</button>
+							<a href="" class="payment-find__button button button--cancel"><img src="img/icons/close.svg" alt="иконка отменить">Отменить платеж</a>
+						</div>
+					</div>
+				</div>
+				<div class="payment-attention">
+					<div class="payment-attention__image">
+						<img src="img/card-image.webp" alt="картинка">
+					</div>
+					<h2 class="payment-attention__title payment-title">Обратите внимание</h2>
+					<div class="payment-attention__text payment-subtitle">Не используйте эти реквизиты для последующих
+						платежей. Они меняются с каждой заявкой</div>
+					<button type="button" class="payment-attention__button button button--green">Понятно</button>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20250405203443"></script>
+</body>
+
+</html>
